@@ -8,7 +8,7 @@ export const Route = createFileRoute("/contact")({
       { title: "Contact — Summit Pro Clean" },
       { name: "description", content: "Request a free walkthrough and quote for your commercial property." },
       { property: "og:title", content: "Contact — Summit Pro Clean" },
-      { property: "og:description", content: "Free walkthrough and quote within 48 hours." },
+      { property: "og:description", content: "Request a free walkthrough and quote for your commercial property." },
     ],
   }),
   component: ContactPage,
@@ -23,7 +23,7 @@ function ContactPage() {
           <span className="text-xs font-bold uppercase tracking-[0.3em] text-primary">Contact</span>
           <h1 className="mt-3 font-display text-5xl font-black md:text-7xl">Get a quote.</h1>
           <p className="mt-5 max-w-2xl text-lg text-muted-foreground">
-            Tell us about your property. We'll schedule a walkthrough and get you a custom proposal within 48 hours.
+            Tell us about your property. We'll schedule a walkthrough and send you a custom proposal.
           </p>
         </div>
       </section>

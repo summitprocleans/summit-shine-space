@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Brush, Trash2, Wind, Droplets, Sparkles, HardHat, Building2, ArrowRight } from "lucide-react";
+import { Brush, Trash2, Sparkles, HardHat, Building2, ArrowRight } from "lucide-react";
 
 export const Route = createFileRoute("/services")({
   head: () => ({
@@ -17,8 +17,6 @@ const services = [
   { icon: Brush, title: "Recurring Janitorial", desc: "Nightly, weekly, or custom schedules. Restrooms, breakrooms, trash, vacuum, dust, sanitize." },
   { icon: HardHat, title: "Post-Construction Clean", desc: "Rough clean, final clean, and touch-up. Dust removal, glass, fixtures, and detail work." },
   { icon: Building2, title: "Common Area Care", desc: "Lobbies, hallways, elevators, gyms, and amenity spaces for multi-family communities." },
-  { icon: Droplets, title: "Hard Floor Care", desc: "Strip & wax, burnishing, scrubbing, sealing for VCT, concrete, tile, and hardwood." },
-  { icon: Wind, title: "Carpet & Upholstery", desc: "Hot water extraction, encapsulation, and spot treatment to extend carpet life." },
   { icon: Sparkles, title: "Window & Glass", desc: "Interior and low-rise exterior glass, partitions, and storefront detail cleaning." },
   { icon: Trash2, title: "Trash-Out & Hauling", desc: "Construction debris, junk removal, and post-event cleanup with same-week turnaround." },
   { icon: Sparkles, title: "Disinfection Services", desc: "EPA-listed electrostatic spraying for high-touch surfaces and shared spaces." },

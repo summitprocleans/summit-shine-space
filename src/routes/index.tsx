@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, Building2, Home, HardHat, ShieldCheck, Sparkles, Clock } from "lucide-react";
+import { ArrowRight, Building2, Home, HardHat, Camera, ClipboardCheck, Sparkles } from "lucide-react";
 import heroImg from "@/assets/hero-office.jpg";
 import officesImg from "@/assets/offices.jpg";
 import apartmentsImg from "@/assets/apartments.jpg";
@@ -36,7 +36,7 @@ function HomePage() {
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
               Summit Pro Clean delivers detail-obsessed janitorial and post-construction
-              services to office towers, apartment communities, and large commercial spaces.
+              services to office towers, apartment communities, and commercial properties.
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
               <Link
@@ -63,8 +63,8 @@ function HomePage() {
           {[
             ["Atlanta", "Serving the Metro Area"],
             ["$2M", "Liability Coverage"],
-            ["3 Phase", "Rough, Final & Touch-Up"],
-            ["48 Hour", "Quote Turnaround"],
+            ["Detail Driven", "QC on Every Visit"],
+            ["Custom Plans", "Built Around You"],
           ].map(([n, l]) => (
             <div key={l} className="text-center">
               <div className="font-display text-4xl font-black text-primary md:text-5xl">{n}</div>
@@ -74,16 +74,13 @@ function HomePage() {
         </div>
       </section>
 
-      {/* INDUSTRIES */}
+      {/* WHAT WE CLEAN */}
       <section className="container-x py-24">
         <div className="flex items-end justify-between gap-6">
           <div>
             <span className="text-xs font-bold uppercase tracking-[0.3em] text-primary">What we clean</span>
-            <h2 className="mt-3 font-display text-4xl font-black md:text-6xl">Built for big spaces.</h2>
+            <h2 className="mt-3 font-display text-4xl font-black md:text-6xl">Built for commercial properties.</h2>
           </div>
-          <Link to="/industries" className="hidden items-center gap-2 text-sm font-semibold text-primary hover:underline md:inline-flex">
-            View all industries <ArrowRight className="h-4 w-4" />
-          </Link>
         </div>
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {[
@@ -123,9 +120,9 @@ function HomePage() {
             </div>
             <div className="grid gap-4">
               {[
-                { icon: ShieldCheck, t: "Licensed, bonded & insured", d: "Full coverage and W-2 employees you can trust on-site." },
-                { icon: Clock, t: "After-hours & weekend crews", d: "We work around your schedule, not the other way around." },
-                { icon: Sparkles, t: "Quality you can audit", d: "Digital checklists, supervisor walkthroughs, monthly reviews." },
+                { icon: Camera, t: "Photo Documented", d: "Every job is photographed for accountability and QC review." },
+                { icon: ClipboardCheck, t: "Checklist Driven", d: "Structured walkthroughs ensure nothing is missed." },
+                { icon: Sparkles, t: "Quality You Can Audit", d: "Digital checklists and documented results you can review." },
               ].map(({ icon: Icon, t, d }) => (
                 <div key={t} className="flex gap-4 rounded-lg border border-border bg-card p-5">
                   <Icon className="h-6 w-6 shrink-0 text-primary" />
@@ -147,7 +144,7 @@ function HomePage() {
           <div className="relative flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
             <div>
               <h2 className="font-display text-3xl font-black md:text-5xl">Ready for a cleaner building?</h2>
-              <p className="mt-3 text-muted-foreground md:text-lg">Get a free walkthrough and custom quote within 48 hours.</p>
+              <p className="mt-3 text-muted-foreground md:text-lg">Get a free walkthrough and custom quote.</p>
             </div>
             <Link
               to="/contact"
