@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, Mountain, MapPin, Award, ShieldCheck } from "lucide-react";
+import { ArrowRight, Mountain, MapPin, Award } from "lucide-react";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -21,7 +21,7 @@ function AboutPage() {
           <span className="text-xs font-bold uppercase tracking-[0.3em] text-primary">About</span>
           <h1 className="mt-3 font-display text-5xl font-black md:text-7xl">Built for the climb.</h1>
           <p className="mt-5 max-w-2xl text-lg text-muted-foreground">
-            Summit Pro Clean was founded on a simple idea: commercial cleaning should be held
+            Summit Pro Clean was founded on a simple idea — commercial cleaning should be held
             to the same standard as the buildings it serves.
           </p>
         </div>
@@ -30,26 +30,25 @@ function AboutPage() {
       <section className="container-x grid gap-12 py-20 md:grid-cols-2 md:items-start">
         <div className="space-y-5 text-foreground/90">
           <p>
-            We started Summit Pro Clean because too many property managers were stuck choosing
-            between flaky local crews and impersonal national chains. Neither delivered the
-            consistency that big buildings actually need.
+            We started Summit Pro Clean because too many property managers and general contractors
+            are stuck with cleaning companies that don't show up consistently, don't communicate,
+            and don't take ownership of their results. We built something different.
           </p>
           <p>
-            Our model is different: directly-employed, trained crews, on-site supervision, digital
-            checklists, and a single point of contact who actually answers the phone. We work with
-            office portfolios, apartment communities, and general contractors who need final cleans
-            done right the first time.
+            We work directly with general contractors, developers, and property managers who need
+            detail-driven results — on time, every phase, every job. No shortcuts. No excuses.
           </p>
           <p>
-            Every property gets a custom scope, a named account manager, and monthly walkthroughs.
-            That's how we keep retention near 100%.
+            Every property gets a custom scope of work, direct communication with our team, and
+            documented quality control on every visit. When something falls short of the agreed
+            standard we come back and make it right — no questions asked.
           </p>
         </div>
         <div className="grid gap-4">
           {[
-            { icon: Mountain, t: "Standard above the rest", d: "We benchmark against five-star hospitality, not the cleaning industry average." },
-            { icon: MapPin, t: "Atlanta Based", d: "Serving the metro area with local crews who know the market." },
-            { icon: Award, t: "Accountability built in", d: "Digital QC reports, supervisor sign-off, and monthly performance reviews." },
+            { icon: Mountain, t: "Standard above the rest", d: "We benchmark against five-star hospitality standards — not the cleaning industry average." },
+            { icon: MapPin, t: "Atlanta Based", d: "Locally owned and operated. Serving the greater Atlanta metro area with crews who know the market." },
+            { icon: Award, t: "Accountability Built In", d: "Every job is photographically documented. QC checklists completed on every visit. Issues resolved before the client has to ask." },
           ].map(({ icon: Icon, t, d }) => (
             <div key={t} className="flex gap-4 rounded-xl border border-border bg-card p-6">
               <Icon className="h-7 w-7 shrink-0 text-primary" />
