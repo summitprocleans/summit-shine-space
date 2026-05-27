@@ -75,7 +75,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Summit Pro Clean — Commercial Cleaning Services" },
-      { name: "description", content: "Premium commercial cleaning for offices, apartment buildings, and post-construction sites. Licensed, bonded, insured." },
+      { name: "description", content: "Premium commercial cleaning for offices, apartment buildings, and post-construction sites." },
       { name: "author", content: "Summit Pro Clean" },
       { property: "og:title", content: "Summit Pro Clean — Commercial Cleaning Services" },
       { property: "og:description", content: "Premium commercial cleaning for offices, apartments, and post-construction." },
