@@ -28,16 +28,16 @@ export function SiteFooter() {
         <div>
           <h4 className="text-sm font-bold tracking-widest text-primary">Contact</h4>
           <ul className="mt-4 space-y-3 text-sm text-foreground/80">
-            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-primary" /> (555) 010-2024</li>
-            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary" /> hello@summitproclean.com</li>
-            <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-primary" /> Serving the metro area</li>
+            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-primary" /> (404) 567-6080</li>
+            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary" /> info@summitprocleans.com</li>
+            <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-primary" /> Atlanta Metro Area</li>
           </ul>
         </div>
       </div>
       <div className="border-t border-border/60">
         <div className="container-x flex flex-col items-center justify-between gap-2 py-6 text-xs text-muted-foreground md:flex-row">
           <p>© {new Date().getFullYear()} Summit Pro Clean. All rights reserved.</p>
-          <p>Licensed · Bonded · Insured</p>
+          <p>Licensed · Insured</p>
         </div>
       </div>
     </footer>

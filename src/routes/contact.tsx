@@ -31,9 +31,9 @@ function ContactPage() {
       <section className="container-x grid gap-10 py-20 md:grid-cols-3">
         <div className="space-y-6 md:col-span-1">
           {[
-            { icon: Phone, t: "Call", d: "(555) 010-2024" },
-            { icon: Mail, t: "Email", d: "hello@summitproclean.com" },
-            { icon: MapPin, t: "Service Area", d: "Metro area + surrounding counties" },
+            { icon: Phone, t: "Call", d: "(404) 567-6080" },
+            { icon: Mail, t: "Email", d: "info@summitprocleans.com" },
+            { icon: MapPin, t: "Service Area", d: "Atlanta metro area + surrounding counties" },
           ].map(({ icon: Icon, t, d }) => (
             <div key={t} className="rounded-xl border border-border bg-card p-6">
               <Icon className="h-6 w-6 text-primary" />

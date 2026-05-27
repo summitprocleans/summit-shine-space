@@ -61,10 +61,10 @@ function HomePage() {
       <section className="border-y border-border/60 bg-card/40">
         <div className="container-x grid grid-cols-2 gap-6 py-10 md:grid-cols-4">
           {[
-            ["12+", "Years experience"],
-            ["500K", "Sq ft cleaned weekly"],
-            ["98%", "Client retention"],
-            ["24/7", "Crews on call"],
+            ["Atlanta", "Serving the Metro Area"],
+            ["$2M", "Liability Coverage"],
+            ["3 Phase", "Rough, Final & Touch-Up"],
+            ["48 Hour", "Quote Turnaround"],
           ].map(([n, l]) => (
             <div key={l} className="text-center">
               <div className="font-display text-4xl font-black text-primary md:text-5xl">{n}</div>
