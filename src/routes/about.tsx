@@ -48,7 +48,7 @@ function AboutPage() {
         <div className="grid gap-4">
           {[
             { icon: Mountain, t: "Standard above the rest", d: "We benchmark against five-star hospitality, not the cleaning industry average." },
-            { icon: Users, t: "W-2 employees", d: "No subcontractor shuffle. Vetted, trained, badged team members." },
+            { icon: MapPin, t: "Atlanta Based", d: "Serving the metro area with local crews who know the market." },
             { icon: Award, t: "Accountability built in", d: "Digital QC reports, supervisor sign-off, and monthly performance reviews." },
           ].map(({ icon: Icon, t, d }) => (
             <div key={t} className="flex gap-4 rounded-xl border border-border bg-card p-6">
