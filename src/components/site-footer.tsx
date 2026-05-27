@@ -37,7 +37,7 @@ export function SiteFooter() {
       <div className="border-t border-border/60">
         <div className="container-x flex flex-col items-center justify-between gap-2 py-6 text-xs text-muted-foreground md:flex-row">
           <p>© {new Date().getFullYear()} Summit Pro Clean. All rights reserved.</p>
-          <p>Licensed · Bonded · Insured</p>
+          <p>Licensed · Insured</p>
         </div>
       </div>
     </footer>
