@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, Mountain, Users, Award } from "lucide-react";
+import { ArrowRight, Mountain, MapPin, Award, ShieldCheck } from "lucide-react";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
